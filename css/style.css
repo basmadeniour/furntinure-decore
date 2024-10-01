@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.navbar{
+    position: fixed;
+}
+.imglogo{
+    margin-left: 100px;
+}
+.navbar-nav{
+    margin-right: 40%;
+}
+.navbar-nav li{
+margin-left: 20px;
+}
+.signupbtn{
+    width: 70px;
+    height: 100%;
+    background: #1F1F1F;
+    color: #f8f9fa;
+    margin-right: 10%;
+}
+.container{
+    height: 280vh;
+}
+.Column {
+    margin-top: 5%;
+}
+.divinterior{
+    width: 50%;
+    height: 100%;
+   float: left;
+}
+.h2interior{
+    font-size: 50px;
+}
+.h2interior ,.pinterior{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.photo1{
+    width: 30%;
+    height: 80%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+    background-image: url(../images/Image\ 1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ .numbers{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.start{
+    width: 150px;
+    height: 40px;
+    background: #1F1F1F;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #f8f9fa;
+    display: block;
+}
+.divtarget{
+width: 100%;
+height: 50%;
+margin-top: 5%;
+}
+.target1 , .target2 , .target3{
+    width: 20%;
+    height: 60%;
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+}
+.pnum{
+    font-size: 25px;
+}
+.photo2{
+    width: 40%;
+    height: 100%;
+    float: left;
+    z-index: 1;
+}
+.blackdiv{
+    width: 25%;
+    height: 50%;
+    border: 2px solid black;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+.secondphoto{
+    width: 70%;
+    height: 70%;
+    margin-top: -32%;
+    margin-left: 5%;
+    background-image: url(../images/Image\ 2.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.buttomarrow{
+    width: 20%;
+    height: 40%;
+    margin-top: -20%;
+    margin-left: 62%;
+    background-color: #1F1F1F;
+}
+.downarrow{
+    color: #f8f9fa;
+    font-size: 25px;
+   padding: 40%;
+}
+.divservices{
+    width: 100%;
+    height: 70px;
+}
+.divline{
+    width: 6%;
+    height: 2px;
+    float: left;
+    background-color: #2e2d2d;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.h2services{
+    font-size: 20px;
+    color: #2e2d2d;
+    padding-top: 1%;
+}
+.h3services{
+    display: inline-block;
+    margin-top: 8%;
+    font-size: 20px;
+}
+.pser{
+    font-size: 15px;
+}
+.divdream{
+    width: 80%;
+    height: 80%;
+    margin:  5% 10%;
+    background-image:url(../images/Mask\ group.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sericon{
+    font-size: 30px;
+}
+.pliving , .commercial{
+    font-weight: bold;
+}
+.more{
+    width: 20%;
+    height: 15%;
+    background-color: #2e2d2d;
+    color: aliceblue;
+}
+.simpleicon{ 
+    display: inline;
+}
+.icc{
+    border: 2px solid #2e2d2d;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 1%;
+    line-height: 50px;
+    background-color: #1F1F1F;
+    color: #f8f9fa;
+}
+.h3simple{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 2%;
+}
+.psimple{
+    border-left: 2px solid #2e2d2d ;
+    padding-left: 4%;
+}
+.p3simple{
+    padding-left: 5%;
+}
+.photottto{
+    width: 80%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-image:url(../images/Image.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.halfphptp{
+    width: 80%;
+    height: 90%;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-image:url(../images/Mask\ group\ \(1\).png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.divsopihe{
+    width: 60%;
+    height: 80%;
+    margin-top: -55%;
+    margin-left: 40%;
+    background-color: #010101;
+}
+.Right-Left{
+    width: 20%;
+    height: 10%;
+    margin-top: -7%;
+}
+.rrr{
+    font-size: 30px;
+    color: #afb3b6;
+    padding: 5%;
+}
+.h2james{
+    margin-left: 4%;
+    font-size: 46px;
+}
+.divjames{
+    width: 60%;
+    height: 80%;
+    margin-left: 15%;
+    margin-top: 12%;
+    background-color: #010101;
+}
+.commaicon{
+    margin: 6% 10%;
+    font-size: 40px;
+    color: #f8f9fa;
+}
+.pcomma{
+    margin-left: 6%;
+    color: aliceblue;
+}
+.divclint{
+    width: 90%;
+    height: 25%;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.userphoto{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image:url(../images/Mask\ group\ \(2\).png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    float: left;
+    margin-top: 5%;
+    margin-right: 5%;
+}
+.girl{
+    background-image:url(../images/images.jpeg) ;
+}
+.h5user{
+    /* float: left; */
+    margin: 5% 0%;
+    color: #f8f9fa;
+}
+.place{
+    color: #d9cece;
+   padding-top: 3%;
+   padding-left: 10px;
+   font-size: 13px;
+}
+.userinfo{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.divsubscribe{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    margin-top: 5%;
+}
+.subcontain{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.h2sub{
+    font-size: 50px;
+    margin-top:10%;
+}
+.psubscribe{
+    font-size: 20px;
+}
+.divemail{
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    margin-top: -3%;
+    background-color:rgb(235, 242, 242);
+    z-index: 2;
+}
+.foorright{
+    width: 60%;
+    height: 100%;
+    margin-top: 4%;
+    float: left;
+    color: #ffffff;
+}
+.footleft{
+    width: 40%;
+    margin-top: 4%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+.imglogf{
+    width: 40%;
+    height: 10%;
+    margin: 10% 10%;
+    background-color: #f8f9fa;
+}
+.pfoot1 , .tt{
+    margin-left: 5%;
+}
+.pfoot1{
+    font-size: 16px;
+}
+.tt{
+    margin-top: 8%;
+    font-size: 20px;
+}
+.pfoot2{
+    font-size:16px ;
+    font-weight: bold;
+    margin-top: 10%;
+}
+.mailicon{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.btnmail{
+    width: 15%;
+    height: 80%;
+    background-color: #010101;
+    color: #f8f9fa;
+    margin-left: 30%;
+    margin-top: 1%;
+}
+.yyu{
+    text-align: center;
+}
+
+@media (max-width: 576px)and (min-width: 420px){
+    .photo1{
+        width: 200px;
+        height: 200px;
+       margin-top: 60px;
+    } 
+    .divjames{
+        margin-top: -70%;
+    }
+
+}
+@media (max-width: 420px){
+    .container{
+        height: 350vh;
+    }
+    .pinterior{
+        font-size: 10px;
+    } 
+    .imglogo{
+        margin-left: 20px;
+    } 
+    .photo1{
+        width: 100px;
+        height: 150px;
+       margin-top: 60px;
+    } 
+    .h2interior{
+        font-size: 30px;
+    }
+    .pinterior{
+        padding-top: 10px;
+    }
+    .blackdiv{
+      width: 60%;
+    }
+    .secondphoto{
+    width: 110px;
+    margin-top:-90%;
+    }
+    .divline{
+        margin-top: 4%;
+    }
+    .buttomarrow{
+        width: 25%;
+        height: 20%;
+        margin-left: 50%;
+    }
+    .downarrow{
+        font-size: 20px;
+       padding:60% 30%;
+    }
+    .more{
+        width: 40%;
+        height: 10%
+    }
+    .divsopihe{
+        width: 75%;
+        height: 70%;
+        margin-top: -100%;
+        margin-left: 32%;
+    }
+    .newor{
+        margin-left:0%;
+        /* display: none; */
+    }
+    .Right-Left{
+        width: 20%;
+        height: 10%;
+        margin-top: -9%;
+        font-size: 20px;
+        display: none;
+    }
+    .h2james{
+        font-size: 30px;
+    }
+    .divjames{
+        width: 65%;
+        height: 70%;
+        margin-left: 25%;
+        margin-top: 2%;
+    }
+    .subcontain{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transform: translate(0% , 0%);
+        text-align: center;
+    }
+    .h2sub{
+        font-size: 30px;
+        margin-top:10%;
+    }
+    .psubscribe{
+        font-size: 16px;
+    }
+    .divemail{
+        width: 100%;
+        height: 20%;
+        margin-left: 0%;
+        margin-top: -3%;
+    }
+    .btnmail{
+        width: 30%;
+        height: 40%;
+        background-color: #010101;
+        color: #f8f9fa;
+        margin-left: 30%;
+        margin-top: 1%;
+    }
+}
